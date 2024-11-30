@@ -1,3 +1,4 @@
+import 'package:elearning_app_ui/pages/account_page.dart';
 import 'package:elearning_app_ui/pages/explore_page.dart';
 import 'package:elearning_app_ui/pages/home_page.dart';
 import 'package:elearning_app_ui/pages/my_course_page.dart';
@@ -28,6 +29,7 @@ class _RootAppState extends State<RootApp> {
       const HomePage(),
       const MyCoursePage(),
       const ExplorePage(),
+      const AccountPage(),
     ];
     return IndexedStack(
       index: pageIndex,
