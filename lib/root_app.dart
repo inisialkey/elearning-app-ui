@@ -1,3 +1,4 @@
+import 'package:elearning_app_ui/pages/explore_page.dart';
 import 'package:elearning_app_ui/pages/home_page.dart';
 import 'package:elearning_app_ui/pages/my_course_page.dart';
 import 'package:elearning_app_ui/theme/colors.dart';
@@ -26,6 +27,7 @@ class _RootAppState extends State<RootApp> {
     List<Widget> pages = [
       const HomePage(),
       const MyCoursePage(),
+      const ExplorePage(),
     ];
     return IndexedStack(
       index: pageIndex,
