@@ -17,7 +17,7 @@ class CustomHeading extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'title',
+          title,
           style: TextStyle(
             color: color,
             fontSize: 25,

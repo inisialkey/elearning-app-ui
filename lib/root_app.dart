@@ -1,4 +1,5 @@
 import 'package:elearning_app_ui/pages/home_page.dart';
+import 'package:elearning_app_ui/pages/my_course_page.dart';
 import 'package:elearning_app_ui/theme/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -24,6 +25,7 @@ class _RootAppState extends State<RootApp> {
   Widget getBody() {
     List<Widget> pages = [
       const HomePage(),
+      const MyCoursePage(),
     ];
     return IndexedStack(
       index: pageIndex,
